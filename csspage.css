@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+      font-family: sans-serif;
+      padding: 100px 0px 0;
+      background-color: rgb(255, 255, 255);
+  }
+  .header {
+      background-color: #f82d9d;
+      height: 120px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+  }
+
+  .nav {
+      display: flex;
+      justify-content:center;
+      max-width: 992px;
+      margin: 0 auto;
+  }
+
+  .nav-link {
+      color: white;
+      text-decoration: none;
+      
+  }
+
+  .logo {
+      font-size: 30px;
+      font-weight: bold;
+      padding: 0 40px;
+      line-height: 80px;
+      height: 120px;
+      width: 210px;
+  }
+
+  .nav-menu {
+      display: flex;
+      margin-right: 40px;
+      list-style: none;
+  }
+
+  .nav-menu-item {
+      font-size: 18px;
+      margin: 0 10px;
+      line-height: 80px;
+      text-transform: uppercase;
+      width: max-content;
+  }
+
+  .nav-menu-link {
+      padding: 8px 12px;
+      border-radius: 3px;
+  }
+  .nav-menu-link:hover {
+      background-color: #b60064;
+      transition: 0.5s;
+  }
+
+  .layout {
+    width: 1920px;
+    height: 1080px;
+
+    display: grid;
+    grid:
+      "sidebar body" 500px
+      / 240px 1000px;
+    gap: 8px 20px;
+
+    justify-items: start;
+    align-items: center;
+  }
+
+  .sidebar { grid-area: sidebar; }
+  .body { grid-area: body; }
+  .logo {
+    width: 300px;
+  }
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.info-page {
+   align-items: left; 
+   background-color: #f82d9d;
+   margin-right: 1200px;
+   color: white;
+   margin-bottom: 20px;
+}
+.home {
+    background-color: #f82d9d   ;
+    margin-top: 100px;
+   align-items: center;
+    color: white;
+
+}
+.servh1{
+  height: 200px;
+  width: 220px;
+  margin-left: 20px;
+}
+.servh2 {
+ height: 200px;
+ width: 220px;
+}
+.servh1 :hover {
+background-color: #f82d9d;
+transition: 0.5s;
+}
+
+
+.about {
+    background-color: #f82d9d; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    align-items: right;
+}
+.homb {
+ margin-left: 20px;
+ margin-top: 10px;
+}
+.muj {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.servh3 {
+    height: 200px;
+    width: 220px;
+    margin-right: 20px;
+}
+.txt-page {
+    margin: 20px;
+}
+.piedep {
+    background-color: #f82d9d;
+    color: white;
+    max-width: 2080px;
+ }
+ .textp {
+    margin-left: 10px; 
+ }
+ .textp2 {
+    margin-left: 10px;
+ }
